@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/blmd_logo.png"></a>
+          <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/blmd_logo.png" width="200" height="37"></a>
         </div> <!-- //end navbar -->
       </div><!-- //end wrapper -->
     </div>

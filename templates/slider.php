@@ -23,6 +23,13 @@ if ( $slides->have_posts() ) : ?>
   <?php endwhile; ?>
 
   </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#home-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
 </div>
 <?php endif; ?>
 
